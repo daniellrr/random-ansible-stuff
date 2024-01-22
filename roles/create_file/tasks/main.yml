@@ -1,0 +1,7 @@
+---
+# tasks file for create_file
+
+- name: Create a text file at /tmp/hello.txt
+  ansible.builtin.file:
+    path: /tmp/hello.txt
+    state: touch

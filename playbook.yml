@@ -1,0 +1,7 @@
+---
+# Main playbook
+
+- name: Create file using a role
+  hosts: localhost
+  roles:
+    - create_file
